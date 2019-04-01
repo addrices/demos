@@ -16,7 +16,7 @@
     <batch:job id="helloWorldJob">
         <batch:step id="step1">
             <batch:tasklet>
-                <batch:chunk reader="cvsFileItemReader" writer="xmlItemWriter" processor="itemProcessor"
+                <batch:chunk reader="cvsFileItemReader" writer="MyWriter" processor="itemProcessor"
                              commit-interval="10">
                 </batch:chunk>
             </batch:tasklet>
@@ -48,6 +48,9 @@
             </bean>
         </property>
 
+    </bean>
+
+    <bean id="MyWriter" class="cn.edu.nju.sa2017.pipefilter.MyWriter">
     </bean>
 
     <bean id="xmlItemWriter" class="org.springframework.batch.item.xml.StaxEventItemWriter">
