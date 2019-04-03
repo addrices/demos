@@ -3,14 +3,14 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="helloWorldBean" class="cn.edu.nju.sa2017.di.HelloWorld">
-		<constructor-arg ref="logPrinterBean"></constructor-arg>
+	<bean id="helloWorldBean" class="njuics.demos.springbeans.HelloWorld">
+		<constructor-arg ref="messagePrinterBean"></constructor-arg>
 		<property name="message" value="Hello World Again!"></property>
 	</bean>
 
-	<bean id="messagePrinterBean" class="cn.edu.nju.sa2017.di.MessagePrinter">
+	<bean id="messagePrinterBean" class="njuics.demos.springbeans.MessagePrinter">
 	</bean>
 
-	<bean id="logPrinterBean" class="cn.edu.nju.sa2017.di.LogPrinter">
+	<bean id="logPrinterBean" class="njuics.demos.springbeans.LogPrinter">
 	</bean>
 </beans>

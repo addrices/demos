@@ -1,4 +1,4 @@
-package cn.edu.nju.sa2017.di;
+package njuics.demos.springbeans;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

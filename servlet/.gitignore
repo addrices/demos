@@ -1,6 +1,6 @@
 
 # Created by https://www.gitignore.io/api/intellij,maven,macos,eclipse,windows,linux
-xml/
+
 ### Eclipse ###
 
 .metadata
@@ -61,7 +61,6 @@ local.properties
 # User-specific stuff:
 .idea/**/workspace.xml
 .idea/**/tasks.xml
-.idea
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/
@@ -184,7 +183,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-**/.vscode/
 
 # End of https://www.gitignore.io/api/intellij,maven,macos,eclipse,windows,linux

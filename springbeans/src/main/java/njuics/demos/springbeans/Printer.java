@@ -1,4 +1,4 @@
-package cn.edu.nju.sa2017.di;
+package njuics.demos.springbeans;
 
 public interface Printer {
 

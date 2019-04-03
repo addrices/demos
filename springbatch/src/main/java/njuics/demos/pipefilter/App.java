@@ -1,4 +1,4 @@
-package cn.edu.nju.sa2017.pipefilter;
+package njuics.demos.pipefilter;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobExecution;

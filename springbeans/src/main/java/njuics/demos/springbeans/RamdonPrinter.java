@@ -1,4 +1,4 @@
-package cn.edu.nju.sa2017.di;
+package njuics.demos.springbeans;
 
 /**
  * Created by chun on 2017/3/20.
